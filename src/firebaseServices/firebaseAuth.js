@@ -1,20 +1,26 @@
 import {
   getAuth,
   createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  GoogleAuthProvider,
+  signInWithPopup,
+  updateProfile,
 } from 'firebase/auth';
+
 import { app } from '../firebaseInit.js';
 
 export const auth = getAuth(app);
 
-export const criarUsuario = getAuth();
-createUserWithEmailAndPassword(auth, email, password)
+export const login = (email, senha) => signInWithEmailAndPassword(auth, email, senha);
+
+export const logingoogle = () => {
+  const authprovider = new GoogleAuthProvider();
+  return signInWithPopup(auth, authprovider);
+};
+
+// eslint-disable-next-line max-len
+export const criarUsuario = (nomeCompleto, email, senha) => createUserWithEmailAndPassword(auth, email, senha)
   .then((userCredential) => {
-    // Signed in
-    const user = userCredential.user;
-    // ...
-  })
-  .catch((error) => {
-    const errorCode = error.code;
-    const errorMessage = error.message;
-    // ..
+    const usuario = userCredential.user;
+    return updateProfile(usuario, { nomeCompleto });
   });
