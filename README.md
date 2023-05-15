@@ -1,19 +1,3 @@
-# iorkut - comunidade para receitas de airfryer
-
-<b>Acesse o link do projeto aqui: "colocar link deploy"</b>
-
-Terceiro projeto realizado durante o Bootcamp da Laboratória. O objetivo principal alcançado foi desenvolver uma rede social SPA responsiva, partindo do principio do conceito de Mobile first.  
-
-Tema: iorkut - comunidade de receitas de airfyer, um alinhamento entre a nostalgia da antiga rede social Orkut, suas comunidades e uma rede para interações e trocas de receitas para o utensílio Airfyer.  
-
-Funcionalidades:
-
-- Criar conta com login e senha ou Google, autenticados pelo Firebase;
-- Criar postagens de texto, curtir, editar e excluir;
-- Navegar entre as páginas.
-
-<img src="src/images/readme/imagem-logo-readme.png">
-
 ## Índice
 
 * [1. Prefácio](#1-prefácio)
@@ -45,21 +29,17 @@ determinadas tags ou popularidade, mais recente ou mais comentado.
 
 ## 2. Resumo do projeto
 
-Neste projeto você construirá uma Rede Social sobre o que você e sua equipe
-decidirem. Pode ser, por exemplo, sobre alimentação saudável, feminismo,
-educação, saúde, energias renováveis, amantes das
-[Empanadas](https://pt.wikipedia.org/wiki/Empanada), de
-[Tacos](https://pt.wikipedia.org/wiki/Taco_(culin%C3%A1ria)), de
-[Feijoada](https://pt.wikipedia.org/wiki/Feijoada), ou do que seja.
+Terceiro projeto realizado durante o Bootcamp da Laboratória. O objetivo principal alcançado foi desenvolver uma rede social SPA(Single Page Application) responsiva, partindo do principio do conceito de Mobile first.  
 
-Sua Rede Social terá que permitir à qualquer usuário criar uma conta de acesso,
-logar-se com ela, criar, editar, deletar e dar _likes_ em publicações.
+Tema: iorkut - comunidade de receitas de airfyer, um alinhamento entre a nostalgia da antiga rede social Orkut, suas comunidades e uma rede para interações e trocas de receitas para o utensílio Airfyer.  
 
-O objetivo principal de aprendizagem deste projeto é construir uma [Single-page
-Application
-(SPA)](https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica)
-[_responsiva_](https://curriculum.laboratoria.la/pt/topics/css/02-responsive) (com mais de uma tela/ página) na
-qual seja possível **ler e escrever dados**.
+Funcionalidades:
+
+- Criar conta com login e senha ou Google, autenticados pelo Firebase;
+- Criar postagens de texto, curtir, editar e excluir;
+- Navegar entre as páginas.
+<img src="src/images/readme/imagem-logo-readme.png">
+
 
 ## 3. Objetivos de aprendizagem
 
@@ -374,12 +354,12 @@ que notificará se os tiver.)
 
 ### 5.2 Definição do produto
 
-No `README.md`, conte-nos brevemente como você mapeou as necessidades dos seus
-usuários e como você chegou à definição final do seu produto. É importante que
-detalhe:
+Foi realizada uma pesquisa com 40 possíveis usuários para identificarmos pontos em comum do nosso público-alvo. 
+Notamos que o utensílio mais utilizado, por 52% das pessoas pesquisadas foi a fritadeira elétrica( Air Fryer), dentre eles 94% se interessam por dicas de receitas e os lugares de busca por essas receitas, empatados em 75% foram sites especializados e redes sociais, sendo assim seguimos com a ideia de projeto criar uma aplicação onde o usuário tivesse a própria rede social para encontrar receitas específicas de air fryer, aliando com um estilo nostálgico que lembrasse uma antiga rede social de comunidades, como foi o Orkut.  
+<img src="src/images/readme/pesquisausuario.png">
+<img src="src/images/readme/interesse.png">
 
-* Quem são os principais usuários do produto.
-* Qual problema o produto resolve/para que ele serve para esses usuários.
+
 
 ### 5.3 Histórias de usuário
 
